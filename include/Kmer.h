@@ -22,12 +22,17 @@
 #include <iostream>
 #include <string>
 
+struct prueba {
+  public:
+    int i;
+};
 /**
  * @class Kmer
  * @brief It represents a list of k consecutive nucleotides of a DNA or RNA
  * sequence. Each nucleotide is represented with a character like
  * 'A', 'C', 'G', 'T', 'U'.
  */
+
 class Kmer {
   public:
     /**
