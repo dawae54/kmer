@@ -22,6 +22,9 @@
 #include <iostream>
 #include <string>
 
+/**
+@struct prueba
+*/
 struct prueba {
   public:
     int i;
