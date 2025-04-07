@@ -23,13 +23,6 @@
 #include <string>
 
 /**
-@struct prueba
-*/
-struct prueba {
-  public:
-    int i;
-};
-/**
  * @class Kmer
  * @brief It represents a list of k consecutive nucleotides of a DNA or RNA
  * sequence. Each nucleotide is represented with a character like
