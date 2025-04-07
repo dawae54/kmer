@@ -1,0 +1,20 @@
+PROJECT_NAME = "Kmer"
+PROJECT_NUMBER = 4
+OUTPUT_LANGUAGE = ENGLISH
+OUTPUT_DIRECTORY = ./doc
+INPUT = ./src ./include
+EXCLUDE = ./nbproject/ dist/ build/
+RECURSIVE 	= YES
+FILE_PATTERNS = *.cpp *.h
+SOURCE_BROWSER = YES
+INLINE_SOURCES = YES
+HAVE_DOT = NO
+CALL_GRAPH = YES
+USE_PDFLATEX = YES
+PDF_HYPERLINKS = YES
+GENERATE_TREEVIEW      = YES # required!
+DISABLE_INDEX          = NO
+FULL_SIDEBAR           = NO
+HTML_EXTRA_STYLESHEET  = doxygen-awesome-css/doxygen-awesome.css \
+                        doxygen-awesome-css/doxygen-awesome-sidebar-only.css
+HTML_COLORSTYLE        = LIGHT # required with Doxygen >= 1.9.5
