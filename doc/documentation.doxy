@@ -12,8 +12,9 @@ HAVE_DOT = NO
 CALL_GRAPH = YES
 USE_PDFLATEX = YES
 PDF_HYPERLINKS = YES
-GENERATE_TREEVIEW      = NO # required!
+GENERATE_TREEVIEW      = YES # required!
 DISABLE_INDEX          = NO
 FULL_SIDEBAR           = NO
-HTML_EXTRA_STYLESHEET  = doxygen-awesome-css/doxygen-awesome.css
+HTML_EXTRA_STYLESHEET  = doxygen-awesome-css/doxygen-awesome.css \
+                         doxygen-awesome-css/doxygen-awesome-sidebar-only.css
 HTML_COLORSTYLE        = LIGHT # required with Doxygen >= 1.9.5
