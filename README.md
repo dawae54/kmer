@@ -1,5 +1,5 @@
 # Project README
-### This is an example README file, do not take anything here as real
+### This is an example README file, do not take anything here as real.
 ## Overview
 Welcome to our project! This README provides essential information about the project, how to set it up, and how to use it.
 
