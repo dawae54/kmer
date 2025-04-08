@@ -1,0 +1,199 @@
+\doxysection{Kmer\+Freq Class Reference}
+\hypertarget{classKmerFreq}{}\label{classKmerFreq}\index{KmerFreq@{KmerFreq}}
+
+
+A pair formed by a \doxylink{classKmer}{Kmer} object and a frequency (an int), that gives the frequency of a \doxylink{classKmer}{Kmer} (times it appears) in a genoma.  
+
+
+
+
+{\ttfamily \#include $<$Kmer\+Freq.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classKmerFreq_a8d69977d068ccde5f7e09d57c74606f6}{Kmer\+Freq}} ()
+\begin{DoxyCompactList}\small\item\em Base constructor. It builds a \doxylink{classKmerFreq}{Kmer\+Freq} object containing a \doxylink{classKmer}{Kmer} with one nucleotide, the unknown nucleotide (\doxylink{classKmer_a4cdc2682181a0435d9fe703316fad091}{Kmer\+::\+MISSING\+\_\+\+NUCLEOTIDE}) and 0 as its frequency. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classKmer}{Kmer}} \mbox{\hyperlink{classKmerFreq_a1a578772988100e9754490a083afbb44}{get\+Kmer}} () const
+\begin{DoxyCompactList}\small\item\em Gets a const reference to the \doxylink{classKmer}{Kmer} of this \doxylink{classKmerFreq}{Kmer\+Freq} object Query method. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classKmerFreq_a7050b1a322f4a846c2c010320826ecd9}{get\+Frequency}} () const
+\begin{DoxyCompactList}\small\item\em Gets the frequency of this \doxylink{classKmerFreq}{Kmer\+Freq} object Query method. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classKmerFreq_a4eb114f842390e0091cda7a2aab9d8ec}{set\+Kmer}} (const \mbox{\hyperlink{classKmer}{Kmer}} \&kmer)
+\begin{DoxyCompactList}\small\item\em Sets the \doxylink{classKmer}{Kmer} of this \doxylink{classKmerFreq}{Kmer\+Freq} object. Modifier method. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classKmerFreq_a02f30c44425e7b245e46253c5e532930}{set\+Frequency}} (int frequency)
+\begin{DoxyCompactList}\small\item\em Sets the frequency of this \doxylink{classKmerFreq}{Kmer\+Freq} object Modifier method. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classKmerFreq_ac00840559fe053f4efc4d9d9a546d660}{to\+String}} () const
+\begin{DoxyCompactList}\small\item\em Obtains a string with the string and frequency of the kmer in this object (separated by a whitespace). Query method. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classKmerFreq_a6b896a7aed32c59eb534455588270a56}\label{classKmerFreq_a6b896a7aed32c59eb534455588270a56} 
+std\+::istream \& {\bfseries operator$>$$>$} (std\+::istream \&is, \mbox{\hyperlink{classKmerFreq}{Kmer\+Freq}} \&kmer\+\_\+freq)
+\item 
+\Hypertarget{classKmerFreq_ad30d22b9cc92e8e801053bf7804c88c1}\label{classKmerFreq_ad30d22b9cc92e8e801053bf7804c88c1} 
+std\+::ostream \& {\bfseries operator$<$$<$} (std\+::ostream \&out, const \mbox{\hyperlink{classKmerFreq}{Kmer\+Freq}} \&kmer\+\_\+freq)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A pair formed by a \doxylink{classKmer}{Kmer} object and a frequency (an int), that gives the frequency of a \doxylink{classKmer}{Kmer} (times it appears) in a genoma. 
+
+Definition at line \mbox{\hyperlink{KmerFreq_8h_source_l00030}{30}} of file \mbox{\hyperlink{KmerFreq_8h_source}{Kmer\+Freq.\+h}}.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classKmerFreq_a8d69977d068ccde5f7e09d57c74606f6}\index{KmerFreq@{KmerFreq}!KmerFreq@{KmerFreq}}
+\index{KmerFreq@{KmerFreq}!KmerFreq@{KmerFreq}}
+\doxysubsubsection{\texorpdfstring{KmerFreq()}{KmerFreq()}}
+{\footnotesize\ttfamily \label{classKmerFreq_a8d69977d068ccde5f7e09d57c74606f6} 
+Kmer\+Freq\+::\+Kmer\+Freq (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Base constructor. It builds a \doxylink{classKmerFreq}{Kmer\+Freq} object containing a \doxylink{classKmer}{Kmer} with one nucleotide, the unknown nucleotide (\doxylink{classKmer_a4cdc2682181a0435d9fe703316fad091}{Kmer\+::\+MISSING\+\_\+\+NUCLEOTIDE}) and 0 as its frequency. 
+
+
+
+Definition at line \mbox{\hyperlink{KmerFreq_8cpp_source_l00021}{21}} of file \mbox{\hyperlink{KmerFreq_8cpp_source}{Kmer\+Freq.\+cpp}}.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00021\ \{\ \_frequency\ =\ 0;\ \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classKmerFreq_a7050b1a322f4a846c2c010320826ecd9}\index{KmerFreq@{KmerFreq}!getFrequency@{getFrequency}}
+\index{getFrequency@{getFrequency}!KmerFreq@{KmerFreq}}
+\doxysubsubsection{\texorpdfstring{getFrequency()}{getFrequency()}}
+{\footnotesize\ttfamily \label{classKmerFreq_a7050b1a322f4a846c2c010320826ecd9} 
+int Kmer\+Freq\+::get\+Frequency (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Gets the frequency of this \doxylink{classKmerFreq}{Kmer\+Freq} object Query method. 
+
+\begin{DoxyReturn}{Returns}
+The frequency of this \doxylink{classKmerFreq}{Kmer\+Freq} object 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{KmerFreq_8cpp_source_l00025}{25}} of file \mbox{\hyperlink{KmerFreq_8cpp_source}{Kmer\+Freq.\+cpp}}.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00025\ \{\ \textcolor{keywordflow}{return}\ \_frequency;\ \}}
+
+\end{DoxyCode}
+\Hypertarget{classKmerFreq_a1a578772988100e9754490a083afbb44}\index{KmerFreq@{KmerFreq}!getKmer@{getKmer}}
+\index{getKmer@{getKmer}!KmerFreq@{KmerFreq}}
+\doxysubsubsection{\texorpdfstring{getKmer()}{getKmer()}}
+{\footnotesize\ttfamily \label{classKmerFreq_a1a578772988100e9754490a083afbb44} 
+\mbox{\hyperlink{classKmer}{Kmer}} Kmer\+Freq\+::get\+Kmer (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Gets a const reference to the \doxylink{classKmer}{Kmer} of this \doxylink{classKmerFreq}{Kmer\+Freq} object Query method. 
+
+\begin{DoxyReturn}{Returns}
+A const reference to the \doxylink{classKmer}{Kmer} of this \doxylink{classKmerFreq}{Kmer\+Freq} object 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{KmerFreq_8cpp_source_l00023}{23}} of file \mbox{\hyperlink{KmerFreq_8cpp_source}{Kmer\+Freq.\+cpp}}.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00023\ \{\ \textcolor{keywordflow}{return}\ \_kmer;\ \}}
+
+\end{DoxyCode}
+\Hypertarget{classKmerFreq_a02f30c44425e7b245e46253c5e532930}\index{KmerFreq@{KmerFreq}!setFrequency@{setFrequency}}
+\index{setFrequency@{setFrequency}!KmerFreq@{KmerFreq}}
+\doxysubsubsection{\texorpdfstring{setFrequency()}{setFrequency()}}
+{\footnotesize\ttfamily \label{classKmerFreq_a02f30c44425e7b245e46253c5e532930} 
+void Kmer\+Freq\+::set\+Frequency (\begin{DoxyParamCaption}\item[{int}]{frequency}{}\end{DoxyParamCaption})}
+
+
+
+Sets the frequency of this \doxylink{classKmerFreq}{Kmer\+Freq} object Modifier method. 
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std\+::out\+\_\+of\+\_\+range} & if {\ttfamily frequency} is negative \\
+\hline
+\end{DoxyExceptions}
+
+\begin{DoxyParams}{Parameters}
+{\em frequency} & the new frequency value for this \doxylink{classKmerFreq}{Kmer\+Freq} object. Input parameter \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{KmerFreq_8cpp_source_l00029}{29}} of file \mbox{\hyperlink{KmerFreq_8cpp_source}{Kmer\+Freq.\+cpp}}.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00029\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordflow}{if}\ (frequency\ <\ 0)}
+\DoxyCodeLine{00031\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::out\_of\_range(\textcolor{stringliteral}{"{}Frequency\ must\ be\ zero\ or\ greater."{}});}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00033\ \ \ \ \ \_frequency\ =\ frequency;}
+\DoxyCodeLine{00034\ \}}
+
+\end{DoxyCode}
+\Hypertarget{classKmerFreq_a4eb114f842390e0091cda7a2aab9d8ec}\index{KmerFreq@{KmerFreq}!setKmer@{setKmer}}
+\index{setKmer@{setKmer}!KmerFreq@{KmerFreq}}
+\doxysubsubsection{\texorpdfstring{setKmer()}{setKmer()}}
+{\footnotesize\ttfamily \label{classKmerFreq_a4eb114f842390e0091cda7a2aab9d8ec} 
+void Kmer\+Freq\+::set\+Kmer (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classKmer}{Kmer}} \&}]{kmer}{}\end{DoxyParamCaption})}
+
+
+
+Sets the \doxylink{classKmer}{Kmer} of this \doxylink{classKmerFreq}{Kmer\+Freq} object. Modifier method. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em kmer} & The new \doxylink{classKmer}{Kmer} value for this object. Input parameter \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{KmerFreq_8cpp_source_l00027}{27}} of file \mbox{\hyperlink{KmerFreq_8cpp_source}{Kmer\+Freq.\+cpp}}.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00027\ \{\ \_kmer\ =\ kmer;\ \}}
+
+\end{DoxyCode}
+\Hypertarget{classKmerFreq_ac00840559fe053f4efc4d9d9a546d660}\index{KmerFreq@{KmerFreq}!toString@{toString}}
+\index{toString@{toString}!KmerFreq@{KmerFreq}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily \label{classKmerFreq_ac00840559fe053f4efc4d9d9a546d660} 
+std\+::string Kmer\+Freq\+::to\+String (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Obtains a string with the string and frequency of the kmer in this object (separated by a whitespace). Query method. 
+
+\begin{DoxyReturn}{Returns}
+A string with the nucleotide and frequency of the kmer in this object 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{KmerFreq_8cpp_source_l00036}{36}} of file \mbox{\hyperlink{KmerFreq_8cpp_source}{Kmer\+Freq.\+cpp}}.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00036\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00037\ \ \ \ \ \textcolor{keywordflow}{return}\ \_kmer.toString()\ +\ \textcolor{stringliteral}{"{}\ "{}}\ +\ std::to\_string(\_frequency);}
+\DoxyCodeLine{00038\ \}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{KmerFreq_8h}{Kmer\+Freq.\+h}}\item 
+src/\mbox{\hyperlink{KmerFreq_8cpp}{Kmer\+Freq.\+cpp}}\end{DoxyCompactItemize}

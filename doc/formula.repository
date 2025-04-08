@@ -1,0 +1,13 @@
+\_form#0=13x13:$P_1$
+\_form#1=13x13:$P_2$
+\_form#2=224x28:$d = \frac{ \sum_{kmer_i(P_1)} | rank_{kmer_i(P_1)}^{P_1} -
+rank_{kmer_i(P_1)}^{P_2} | }{size(P_1) * size(P_2) }$
+\_form#3=54x14:$kmer_i(p_j)$
+\_form#4=5x9:$i$
+\_form#5=69x14:$p_j,
+j \in \{1, 2\}$
+\_form#6=73x19:$rank_{kmer_i(p_j)}^{p_k}$
+\_form#7=69x14:$p_j, j \in \{1, 2\}$
+\_form#8=13x9:$p_k$
+\_form#9=74x19:$rank_{kmer_i(P_1)}^{P_2}$
+\_form#10=56x14:$kmer_i(P_1)$
