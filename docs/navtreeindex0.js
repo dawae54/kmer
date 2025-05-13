@@ -1,0 +1,25 @@
+var NAVTREEINDEX0 =
+{
+"annotated.html":[0,0],
+"classSolucion.html":[0,0,0],
+"classSolucion.html#a098790f18324d1b9984ca94cdfafd3a3":[0,0,0,5],
+"classSolucion.html#a0b63f023fdbaf04e084f6d532d2f73fa":[0,0,0,3],
+"classSolucion.html#a172b0f0eadec894e7a311492d1cf8007":[0,0,0,7],
+"classSolucion.html#a2304f811d4851a27d52147c0bf9cb4a3":[0,0,0,0],
+"classSolucion.html#a49139d4c7d25fb892c5dd2ef56b48da9":[0,0,0,1],
+"classSolucion.html#a5265fc8a157b126366bd1d1344d05a51":[0,0,0,6],
+"classSolucion.html#adce2c0d2190c5c8a06bdc192aa968731":[0,0,0,4],
+"classSolucion.html#aee402e643dfb0268b1d77c3551266281":[0,0,0,2],
+"classSolucion.html#af67eb04172b7b96eddab7112945a1884":[0,0,0,8],
+"classes.html":[0,1],
+"files.html":[1,0],
+"functions.html":[0,2,0],
+"functions_func.html":[0,2,1],
+"globals.html":[1,1,0],
+"globals_func.html":[1,1,1],
+"index.html":[],
+"losetas_8cpp.html":[1,0,0],
+"losetas_8cpp.html#abd4ebb9ef0a793ebd9cc8dd4dbd09469":[1,0,0,1],
+"losetas_8cpp_source.html":[1,0,0],
+"pages.html":[]
+};

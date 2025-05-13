@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['isvalidnucleotide_0',['IsValidNucleotide',['../Kmer_8h.html#ab37d45ac1439c9a30303f1c023d825fc',1,'Kmer.h']]]
+  ['restaurapos_0',['restauraPos',['../classSolucion.html#a098790f18324d1b9984ca94cdfafd3a3',1,'Solucion']]]
 ];

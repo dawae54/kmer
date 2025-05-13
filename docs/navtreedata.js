@@ -22,16 +22,31 @@
 
  @licend  The above is the entire license notice for the JavaScript code in this file
 */
-var menudata={children:[
-{text:"Página principal",url:"index.html"},
-{text:"Clases",url:"annotated.html",children:[
-{text:"Lista de clases",url:"annotated.html"},
-{text:"Índice de clases",url:"classes.html"},
-{text:"Miembros de clases",url:"functions.html",children:[
-{text:"Todos",url:"functions.html"},
-{text:"Funciones",url:"functions_func.html"}]}]},
-{text:"Archivos",url:"files.html",children:[
-{text:"Lista de archivos",url:"files.html"},
-{text:"Miembros de los archivos",url:"globals.html",children:[
-{text:"Todos",url:"globals.html"},
-{text:"Funciones",url:"globals_func.html"}]}]}]}
+var NAVTREE =
+[
+  [ "Práctica 4", "index.html", [
+    [ "Clases", "annotated.html", [
+      [ "Lista de clases", "annotated.html", "annotated_dup" ],
+      [ "Índice de clases", "classes.html", null ],
+      [ "Miembros de clases", "functions.html", [
+        [ "Todos", "functions.html", null ],
+        [ "Funciones", "functions_func.html", null ]
+      ] ]
+    ] ],
+    [ "Archivos", "files.html", [
+      [ "Lista de archivos", "files.html", "files_dup" ],
+      [ "Miembros de los archivos", "globals.html", [
+        [ "Todos", "globals.html", null ],
+        [ "Funciones", "globals_func.html", null ]
+      ] ]
+    ] ]
+  ] ]
+];
+
+var NAVTREEINDEX =
+[
+"annotated.html"
+];
+
+var SYNCONMSG = 'pulsar para deshabilitar sincronización';
+var SYNCOFFMSG = 'pulsar para habilitar sincronización';

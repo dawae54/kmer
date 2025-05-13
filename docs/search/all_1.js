@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['complementary_0',['complementary',['../classKmer.html#a5573b9ac8221d4fd2f11b30bfc7d0c7a',1,'Kmer']]]
+  ['decision_0',['decision',['../classSolucion.html#a49139d4c7d25fb892c5dd2ef56b48da9',1,'Solucion']]]
 ];

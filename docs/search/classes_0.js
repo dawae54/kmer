@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['kmer_0',['Kmer',['../classKmer.html',1,'']]],
-  ['kmerfreq_1',['KmerFreq',['../classKmerFreq.html',1,'']]]
+  ['solucion_0',['Solucion',['../classSolucion.html',1,'']]]
 ];
