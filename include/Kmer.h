@@ -2,7 +2,7 @@
  * Metodología de la Programación: Kmer4
  * Curso 2023/2024
  */
-
+// Prueba
 /**
  * @file Kmer.h
  * @author Silvia Acid Carrillo <acid@decsai.ugr.es>
